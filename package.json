@@ -1,0 +1,16 @@
+{
+  "name": "freepikdownloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "powershell rm index-* && pkg.cmd --public-packages '*' index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "input": "^1.0.1",
+    "tor-axios": "^1.0.9"
+  }
+}
